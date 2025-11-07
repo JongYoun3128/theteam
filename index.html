@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>THE TEAM DESIGN - 당신의 공간을 특별하게</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- 네비게이션 -->
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <div class="nav-brand">THE TEAM DESIGN</div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">홈</a></li>
+                    <li><a href="#about" class="nav-link">회사소개</a></li>
+                    <li><a href="#services" class="nav-link">서비스</a></li>
+                    <li><a href="#process" class="nav-link">프로세스</a></li>
+                    <li><a href="#contact" class="nav-link">문의하기</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 히어로 섹션 -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">당신의 꿈을 현실로</h1>
+                <p class="hero-subtitle fade-in">
+                    프리미엄 인테리어 디자인 & 시공
+                </p>
+                <a href="#contact" class="btn btn-primary fade-in"
+                    >무료 상담 신청</a
+                >
+                <div class="scroll-indicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 회사소개 섹션 -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">ABOUT US</h2>
+                    <p class="section-subtitle">
+                        우리는 공간에 가치를 더합니다
+                    </p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>15년의 경험과 노하우</h3>
+                        <p>
+                            더팀디자인은 고객의 라이프스타일과 취향을 완벽하게
+                            이해하고, 그것을 공간에 담아내는 것을 최우선으로
+                            생각합니다.
+                        </p>
+                        <p>
+                            저희는 단순히 아름다운 공간을 만드는 것을 넘어,
+                            실용성과 편안함을 겸비한 맞춤형 인테리어를
+                            제공합니다.
+                        </p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-icon">📊</div>
+                                <h4>500+</h4>
+                                <p>완료 프로젝트</p>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon">⭐⭐⭐⭐</div>
+                                <h4>4</h4>
+                                <p>고객 만족도</p>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon">🏅</div>
+                                <h4>15년</h4>
+                                <p>업계 경력</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <svg
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 400 300"
+                            >
+                                <rect fill="#f0f0f0" width="400" height="300" />
+                                <text
+                                    x="50%"
+                                    y="50%"
+                                    font-family="Arial"
+                                    font-size="24"
+                                    fill="#999"
+                                    text-anchor="middle"
+                                    dy=".3em"
+                                >
+                                    Company Image
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 서비스 섹션 -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">OUR SERVICES</h2>
+                    <p class="section-subtitle">
+                        전문적인 인테리어 솔루션을 제공합니다
+                    </p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-icon">🏠</div>
+                        <h3>주거 공간</h3>
+                        <p>
+                            아파트, 빌라, 단독주택 등 모든 주거 공간의
+                            인테리어를 책임집니다.
+                        </p>
+                        <div class="card-number">01</div>
+                    </div>
+                    <div
+                        class="service-card"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="service-icon">🏢</div>
+                        <h3>상업 공간</h3>
+                        <p>
+                            카페, 레스토랑, 사무실 등 브랜드 가치를 높이는
+                            공간을 디자인합니다.
+                        </p>
+                        <div class="card-number">02</div>
+                    </div>
+                    <div
+                        class="service-card"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                    >
+                        <div class="service-icon">✏️</div>
+                        <h3>설계 & 디자인</h3>
+                        <p>
+                            3D 시뮬레이션을 통해 시공 전 완성된 공간을 미리
+                            확인할 수 있습니다.
+                        </p>
+                        <div class="card-number">03</div>
+                    </div>
+                    <div
+                        class="service-card"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                    >
+                        <div class="service-icon">🔨</div>
+                        <h3>시공 & 감리</h3>
+                        <p>
+                            전문 시공팀이 설계부터 완공까지 철저한 품질 관리를
+                            진행합니다.
+                        </p>
+                        <div class="card-number">04</div>
+                    </div>
+                    <div
+                        class="service-card"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                    >
+                        <div class="service-icon">🎨</div>
+                        <h3>스타일링</h3>
+                        <p>
+                            가구, 조명, 소품 등 토탈 스타일링으로 완벽한 공간을
+                            완성합니다.
+                        </p>
+                        <div class="card-number">05</div>
+                    </div>
+                    <div
+                        class="service-card"
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                    >
+                        <div class="service-icon">♻️</div>
+                        <h3>리모델링</h3>
+                        <p>
+                            노후된 공간을 새롭게 탈바꿈시켜 자산 가치를
+                            높입니다.
+                        </p>
+                        <div class="card-number">06</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 진행 프로세스 섹션 -->
+        <section class="process" id="process">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">PROCESS</h2>
+                    <p class="section-subtitle">체계적인 4단계 진행 프로세스</p>
+                </div>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="process-number">01</div>
+                        <div class="process-icon">💬</div>
+                        <h3>상담 & 미팅</h3>
+                        <p>
+                            고객님의 니즈와 예산을 파악하고 최적의 솔루션을
+                            제안합니다.
+                        </p>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-number">02</div>
+                        <div class="process-icon">📐</div>
+                        <h3>설계 & 디자인</h3>
+                        <p>
+                            3D 시뮬레이션으로 완성된 공간을 미리 확인하실 수
+                            있습니다.
+                        </p>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-number">03</div>
+                        <div class="process-icon">🔨</div>
+                        <h3>시공 & 감리</h3>
+                        <p>
+                            전문 시공팀이 철저한 품질 관리와 함께 시공을
+                            진행합니다.
+                        </p>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-number">04</div>
+                        <div class="process-icon">✅</div>
+                        <h3>완공 & 사후관리</h3>
+                        <p>
+                            완벽한 마무리와 지속적인 A/S로 고객 만족을
+                            실현합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 포트폴리오 섹션 -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">PORTFOLIO</h2>
+                    <p class="section-subtitle">우리의 작품을 만나보세요</p>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-badge">NEW</div>
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-info">
+                            <h3>모던 거실</h3>
+                            <p>강남 아파트 | 35평</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-info">
+                            <h3>미니멀 주방</h3>
+                            <p>서초 빌라 | 25평</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-info">
+                            <h3>럭셔리 침실</h3>
+                            <p>송파 아파트 | 45평</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-info">
+                            <h3>카페 인테리어</h3>
+                            <p>홍대 카페 | 50평</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-info">
+                            <h3>오피스 공간</h3>
+                            <p>강남 사무실 | 80평</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-info">
+                            <h3>레스토랑</h3>
+                            <p>청담 레스토랑 | 60평</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 고객 후기 섹션 -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">TESTIMONIALS</h2>
+                    <p class="section-subtitle">고객님들의 생생한 후기</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "처음부터 끝까지 정말 만족스러운 인테리어였습니다.
+                            디자인 감각도 뛰어나시고 시공 퀄리티도 완벽했어요.
+                            특히 3D 시뮬레이션으로 미리 확인할 수 있어서
+                            좋았습니다."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👤</div>
+                            <div class="author-info">
+                                <h4>김미영</h4>
+                                <p>강남 아파트 35평</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "카페 인테리어를 맡겼는데 기대 이상이었습니다. 공간
+                            활용도 잘 해주시고 감각적인 디자인으로 손님들 반응이
+                            정말 좋아요. 매출도 20% 증가했습니다!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👤</div>
+                            <div class="author-info">
+                                <h4>이준호</h4>
+                                <p>홍대 카페 50평</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "오래된 집을 리모델링했는데 완전히 새집처럼
+                            변했어요. 예산 내에서 최선을 다해주시고, A/S도
+                            꼼꼼하게 해주셔서 정말 감사합니다."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👤</div>
+                            <div class="author-info">
+                                <h4>박서진</h4>
+                                <p>서초 빌라 25평</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ 섹션 -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">FAQ</h2>
+                    <p class="section-subtitle">자주 묻는 질문</p>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>인테리어 비용은 어떻게 산정되나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                인테리어 비용은 평수, 시공 범위, 자재 선택 등에
+                                따라 달라집니다. 무료 상담을 통해 정확한 견적을
+                                받아보실 수 있습니다. 일반적으로 평당
+                                300만원~500만원 선이며, 고객님의 예산에 맞춰
+                                최적의 플랜을 제안드립니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>시공 기간은 얼마나 걸리나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                일반적으로 30평 기준 전체 인테리어는 4~6주 정도
+                                소요됩니다. 부분 인테리어의 경우 1~2주 정도
+                                걸립니다. 정확한 일정은 현장 상황과 시공 범위에
+                                따라 달라질 수 있으며, 계약 전 상세한 일정표를
+                                제공해드립니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>시공 중에 집에 거주할 수 있나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                부분 인테리어의 경우 거주 가능하지만, 전체
+                                인테리어는 소음과 먼지 등으로 인해 다른 곳에서
+                                거주하시는 것을 권장드립니다. 고객님의 상황에
+                                맞춰 최대한 불편을 최소화하는 방향으로
+                                진행하겠습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>A/S는 어떻게 진행되나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                완공 후 1년간 무상 A/S를 제공합니다. 시공 하자나
+                                자재 불량에 대해서는 즉시 조치해드리며, 정기적인
+                                점검 서비스도 제공합니다. 언제든지 연락 주시면
+                                신속하게 처리해드립니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>3D 시뮬레이션은 무료인가요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                계약 전 1회 3D 시뮬레이션은 무료로 제공됩니다.
+                                추가 수정이나 여러 안을 원하실 경우 별도 비용이
+                                발생할 수 있습니다. 3D로 미리 확인하시면 완공 후
+                                만족도가 훨씬 높습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연락처 섹션 -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">CONTACT US</h2>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h4>📞 전화</h4>
+                            <p>02-1234-5678</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>📧 이메일</h4>
+                            <p>info@theteamdesign.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>📍 주소</h4>
+                            <p>
+                                서울시 강남구 테헤란로 123<br />디자인타워 5층
+                            </p>
+                        </div>
+                        <div class="info-item">
+                            <h4>🕐 영업시간</h4>
+                            <p>평일 09:00 - 18:00<br />주말 및 공휴일 휴무</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 푸터 -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3>THE TEAM DESIGN</h3>
+                        <p>당신의 꿈을 현실로 만들어드립니다</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-col">
+                            <h4>회사</h4>
+                            <ul>
+                                <li><a href="#about">회사소개</a></li>
+                                <li><a href="#portfolio">포트폴리오</a></li>
+                                <li><a href="#contact">오시는 길</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>서비스</h4>
+                            <ul>
+                                <li><a href="#services">주거 공간</a></li>
+                                <li><a href="#services">상업 공간</a></li>
+                                <li><a href="#services">리모델링</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>고객지원</h4>
+                            <ul>
+                                <li><a href="#contact">문의하기</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">견적 문의</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 THE TEAM DESIGN. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
